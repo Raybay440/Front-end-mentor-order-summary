@@ -1,0 +1,36 @@
+.order_card {
+    border-radius: 20px;
+    overflow: hidden;
+    background-color: var(--eggshellWhite);
+    text-align: center;
+    max-width: 400px;
+    margin: auto;
+    box-shadow: var(--shortDropShadow), var(--longDropShadow);
+
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.order_card img {
+    width: 100%;
+    display: block;
+    /* box-shadow: var(--shortDropShadow), var(--longDropShadow); */
+}
+
+.order_card p {
+    margin: 20px 50px;
+    line-height: 32px;
+    color: var(--lightGrey);
+    font-weight: 300;
+}
+.order_card #cancelBtn {
+    display:block;
+    font-weight: 900;
+    margin: 20px 50px;
+    
+}
+/* .order_card h2 {
+    margin-top: 50px;
+    
+} */

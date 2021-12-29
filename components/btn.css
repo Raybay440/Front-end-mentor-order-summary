@@ -1,0 +1,22 @@
+.btn {
+    display: block;
+    font-size: 15px;
+    font-weight: 900;
+    text-decoration: none;
+    text-align: center;
+    background-color: var(--brightBlue);
+    color: var(--paleBlue);
+    padding: 15px;
+    margin: 20px 30px;
+    border-radius: 11px; 
+    
+    
+    box-shadow: var(--shortDropShadow), var(--longDropShadow);
+    transition: background-color var(--TransitionEnd);
+
+    /* max-width:fit-content; */
+}
+.btn:hover{
+    background-color: var(--desaturatedBlue2);
+    transition: background-color var(--TransitionStart);
+}

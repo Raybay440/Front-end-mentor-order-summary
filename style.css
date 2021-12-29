@@ -1,0 +1,28 @@
+@import './components/btn.css';
+@import './components/order-summary.css';
+@import './components/info-card.css';
+@import './themes.css';
+
+html {
+    font-family: 'Courier New', Courier, monospace;
+    font-family: var(--primaryFont);
+
+    padding:2rem;
+}
+
+body {
+    background-color: var(--paleBlue);
+    background-image: url('./images/pattern-background-desktop.svg');
+    background-repeat: no-repeat;
+
+}
+/* .order_card {
+    background-image: url('./images/illustration-hero.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin:auto;
+    width: 25%; 
+    height: 400px;
+    max-width: 25%;
+    max-height:400px;
+} */
